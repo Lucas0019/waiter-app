@@ -1,7 +1,10 @@
+import { GlobalStyles } from './styles/GlobalStyles';
+
 export const App = () => {
   return (
-    <div className="App">
+    <>
+      <GlobalStyles/>
       <h1>Waiter App</h1>
-    </div>
+    </>
   );
 };
