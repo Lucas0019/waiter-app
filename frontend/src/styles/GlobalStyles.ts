@@ -58,4 +58,15 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 1rem;
     color: #333;
   }
+
+  :root {
+    --color-primary: #D73035;
+    --color-secondary: ##E5E5E5;
+
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --white-40: #CCCCCC40;
+    --black-300: #333333;
+  }
 `;
