@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
   background: var(--color-primary);
+  padding: 0 60px
 `;
 
 
@@ -13,8 +14,6 @@ export const HeaderContent = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  padding: 60px;
   height: 198px;
 
   .page-details {

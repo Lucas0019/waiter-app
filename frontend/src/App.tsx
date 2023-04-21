@@ -1,4 +1,5 @@
-import { Header } from './components/Header';
+import { Header } from './components/Layout/Header';
+import { Orders } from './components/Orders';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 export const App = () => {
@@ -6,6 +7,7 @@ export const App = () => {
     <>
       <GlobalStyles/>
       <Header/>
+      <Orders/>
     </>
   );
 };
