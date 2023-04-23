@@ -7,7 +7,7 @@ export const Board = styled.div`
   border-radius: 16px;
   width: 100%;
 
-  header {
+  .header-board {
     display: flex;
     justify-content: center;
 
