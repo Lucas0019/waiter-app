@@ -1,7 +1,6 @@
 import { useFonts } from 'expo-font';
+import { Main } from './src/Main';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
-import { TextLayout } from './src/components/TextLayout';
 
 export default function App() {
 
@@ -13,21 +12,11 @@ export default function App() {
 
   if (!isFontsLoaded) return null;
 
-
   return (
-    <View style={styles.container}>
-      <TextLayout size={32}color='#fff' weight='600'>WAITER APP 🍔</TextLayout>
-      <TextLayout color='#fff' opacity={0.5} >Bora anotar os pedidos !</TextLayout>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <StatusBar style='dark'/>
+      <Main/>
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#D73035',
-    alignItems: 'center',
-    justifyContent: 'center',
-  }
-});
